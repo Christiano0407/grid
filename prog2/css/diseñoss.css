@@ -1,0 +1,292 @@
+
+body {
+
+font-family: miller-display, serif;
+
+font-weight: 400;
+
+font-style: normal;
+margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+ font-family:  sans-serif;
+
+}
+h1 {
+    margin: 0;
+    line-height: 1.5;
+    font-size: 40px;
+    letter-spacing:-.2px;
+    color: white;
+}
+strong{
+    color: #026fff;
+}
+
+h2 {
+  color: #026fff;
+  text-transform: uppercase;
+  font-family: miller-display, serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+margin-bottom: 40px;
+}
+.header {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu {
+    height: inherit;
+}
+
+ol,ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure {
+    margin: 0;
+}
+.header a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    height: inherit;
+    padding: 0 10px
+}
+
+.header ol {
+display: flex;
+height: inherit;
+}
+
+.header ol li {
+    height: inherit;
+    display: flex;
+    align-items: center;
+}
+
+.hero {
+    height: 300px;
+    /* background-image: url("../img/hero.jpg"); */
+    /* background-size:  500px 300px; */
+    /* background-repeat: no-repeat; */
+    background-position-x: right;
+    background-color: #1b2127;
+    display: flex;
+    align-items: center;
+}
+
+.hero-image {
+    object-fit: cover;
+}
+
+.proyect {
+    border: 1px solid gray;
+    border-radius: 10px;
+    /* margin: 10px; */
+    margin-top: 15px;
+    padding: 20px;
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.proyect-course {
+    margin: 10px 0;
+}
+
+.proyect-date { 
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.proyect-url {
+    margin: 10px 0;
+    font-size: 20px;
+    
+}
+
+.proyect-description {
+    font-size: 20px;
+}
+
+.proyect-title {
+   font-size: 30px;
+   margin-top: 0;
+   margin-bottom: 10px;
+}
+
+.proyect-details {
+    width: 500px;
+}
+
+.proyect-imageContainer {
+    width: 500px;
+}
+
+.portfolio {
+    background: #fafafa;
+    padding: 20px;
+}
+
+.footer {
+    background-color: #1b2127;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer img {
+    vertical-align: middle;
+}
+
+.footer a {
+    color: white;
+}
+
+.event {
+ margin: 10px;
+ width: 480px;
+ flex-shrink: 0;
+ border-radius: 10px;
+ overflow: hidden;
+ background: #f4fbff;
+}
+
+.event img {
+    width: 480px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.event-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.event-details {
+   margin: 20px 40px;
+   margin-top: -40px;
+   position: relative;
+   background-color: white;
+   padding: 20px;
+   text-align: center;
+   border-radius: 10px;
+}
+
+.event-desciption {
+    text-align: left;
+}
+
+.event-url {
+    border: 1px solid #026fff;
+    padding: 5px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    color: #026fff;
+}
+
+.event_list-title {
+    margin-left: 20px;
+}
+
+.contact {
+    color: white;
+    background-color: #026fff;
+    display: flex;
+    align-items: center;
+    height: 150px;
+    justify-content: space-between;
+}
+
+.social {
+  
+}
+
+.social-link {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-size: 50px 50px;
+    margin: 0 10px;
+}
+
+.social-link.facebook {
+ background-image: url("../img/fac.png");
+}
+
+.social-link.twitter {
+    background-image: url("../img/tw.png");
+    
+}
+
+.social-link.instagram {
+    background-image: url("../img/ins.png");
+    
+}
+
+.social-link.github {
+    background-image: url("../img/git.png");
+    
+}
+
+.form-email input {
+    border-color: gray;
+    padding: 5px 20px 5px 25px;
+    background-image: url("../img/envelope.svg");
+    background-repeat: no-repeat;
+    background-size: 15px 15px;
+    background-position-y: center;
+    background-position-x: 5px;
+    border-radius: 5px;
+    border-style: solid;
+}
+
+.form-email button {
+    display: block;
+    background:transparent;
+    color: white;
+    padding: 10px 0;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 100px;
+
+}
+
+.form-email h3 {
+    font-family: miller-display, serif;
+
+font-weight: 400;
+
+font-style: normal;
+}
+
+.container {
+    /* border: 1px solid blue; */
+    margin: 0 auto;
+    width: 1000px;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+}
